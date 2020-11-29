@@ -32,15 +32,10 @@ from skylee.modules.helper_funcs.alternate import typing_action
 
 
 PM_START_TEXT = """
-Hey There ! My name is Julia  
-I'm here to make your group management fun and easy!
-I have lots of handy features, such as flood control, a warning system, a note keeping system, and even replies on predetermined filters.
-Please Click Help Button For Assistance And Help Regarding Special Modules
-You can find the list of available commands with Help Module.
-Any issues or need help related to me?
-==========================
-✗ [Support Channel](t.me/Meikosupport)
-✗ [Support Group](t.me/meikoSupportChat)
+Hi {}, my name is {}! If you have any questions on how to use me, read /help and then head to @JuliaUpdates  - 
+I'm a group manager bot built in python3, using the python-telegram-bot library, 
+You can find the list of available commands with /help.
+If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate some money to help fund and upgrade my VPS! It Will Be Highly Appreciated 😊
 ==========================
 Wanna Add me to your Group? Just click the button below!
 """
@@ -48,9 +43,9 @@ Wanna Add me to your Group? Just click the button below!
 buttons = [
     [
         InlineKeyboardButton(
-            text="Add Me To Group ➕", url="t.me/meikobot?startgroup=true"
+            text="Add Me To Group ➕", url="http://t.me/MissJuliaBot?startgroup=true"
         ),
-        InlineKeyboardButton(text="Updates & Info 📃", url="https://t.me/meikosupport"),
+        InlineKeyboardButton(text="Updates & Info 📃", url="https://t.me/JuliaUpdates"),
     ]
 ]
 

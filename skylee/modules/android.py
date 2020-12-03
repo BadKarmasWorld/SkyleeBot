@@ -177,12 +177,12 @@ Get Latest magisk relese, Twrp for your device or info about some device using i
 
 *Android related commands:*
 
- ✗ /magisk - Gets the latest magisk release for Stable/Beta/Canary.
- ✗ /device <codename> - Gets android device basic info from its codename.
- ✗ /twrp <codename> -  Gets latest twrp for the android device using the codename.
+ /magisk - Gets the latest magisk release for Stable/Beta/Canary.
+ /device <codename> - Gets android device basic info from its codename.
+ /twrp <codename> -  Gets latest twrp for the android device using the codename.
 """
 
-__mod_name__ = "Android"
+__mod_name__ = "Android📱"
 
 MAGISK_HANDLER = DisableAbleCommandHandler("magisk", magisk)
 DEVICE_HANDLER = DisableAbleCommandHandler("device", device, pass_args=True)

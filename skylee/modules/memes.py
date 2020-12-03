@@ -435,20 +435,20 @@ def goodmorning(update, context):
 __help__ = """
 Some dank memes for fun or whatever!
 
- ✗ /shrug | /cri: Get shrug or ToT.
- ✗ /decide: Randomly answer yes no etc.
- ✗ /abuse: Abuses the retard!
- ✗ /table: Flips a table...
- ✗ /runs: Reply a random string from an array of replies.
- ✗ /slap: Slap a user, or get slapped if not a reply.
- ✗ /pasta: Famous copypasta meme, try and see.
- ✗ /clap: Claps on someones message!
- ✗ /owo: UwU-fy whole text XD.
- ✗ /roll: Rolls a dice.
- ✗ /recite: Logical quotes to change your life.
- ✗ /stretch:  streeeeeeetch iiiiiiit.
- ✗ /warm: Hug a user warmly, or get hugged if not a reply.
- ✗ /punch: Punch a user, or get punched if not a reply.
+ /shrug | /cri: Get shrug or ToT.
+ /decide: Randomly answer yes no etc.
+ /abuse: Abuses the retard!
+ /table: Flips a table...
+ /runs: Reply a random string from an array of replies.
+ /slap: Slap a user, or get slapped if not a reply.
+ /pasta: Famous copypasta meme, try and see.
+ /clap: Claps on someones message!
+ /owo: UwU-fy whole text XD.
+ /roll: Rolls a dice.
+ /recite: Logical quotes to change your life.
+ /stretch:  streeeeeeetch iiiiiiit.
+ /warm: Hug a user warmly, or get hugged if not a reply.
+ /punch: Punch a user, or get punched if not a reply.
 
 *Regex based memes:*
 
@@ -462,7 +462,7 @@ All regex filters can be disabled incase u don't want... like: `/disable metoo`.
 
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "Memes😂"
 
 SHRUG_HANDLER = DisableAbleCommandHandler("shrug", shrug)
 DECIDE_HANDLER = DisableAbleMessageHandler(

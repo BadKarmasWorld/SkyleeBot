@@ -241,7 +241,7 @@ if is_module_loaded(FILENAME):
     def __chat_settings__(chat_id, user_id):
         return build_curr_disabled(chat_id)
 
-    __mod_name__ = "Disabling"
+    __mod_name__ = "Disabling🔒"
 
     __help__ = """
 Not everyone wants every feature that the bot offers. Some commands are best \
@@ -249,13 +249,12 @@ left unused; to avoid spam and abuse.
 
 This allows you to disable some commonly used commands, so noone can use them. \
 It'll also allow you to autodelete them, stopping people from bluetexting.
-
- ✗ /cmds: Check the current status of disabled commands
+/cmds: Check the current status of disabled commands
 
 *Admin only:*
- ✗ /enable <cmd name>: Enable that command
- ✗ /disable <cmd name>: Disable that command
- ✗ /listcmds: List all possible disablable commands
+/enable <cmd name>: Enable that command
+/disable <cmd name>: Disable that command
+/listcmds: List all possible disablable commands
     """
 
     DISABLE_HANDLER = CommandHandler(

@@ -87,4 +87,4 @@ messages all together or individually.
  ✗ /purge: Deletes all messages between this and the replied to message.
 """
 
-__mod_name__ = "Purges"
+__mod_name__ = "Purges🗑"

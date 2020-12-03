@@ -399,7 +399,7 @@ An example of temporarily banning someone:
 `/tban @username 2h`; this bans a user for 2 hours.
 """
 
-__mod_name__ = "Bans"
+__mod_name__ = "Bans🚷"
 
 BAN_HANDLER = CommandHandler("ban", ban, pass_args=True, filters=Filters.group)
 TEMPBAN_HANDLER = CommandHandler(
